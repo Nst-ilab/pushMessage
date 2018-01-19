@@ -11,7 +11,6 @@ def lambda_handler(event, context):
     
     try:
         line_bot_api.push_message(event["to"],TextSendMessage(event["messages"]["text"]))
-        return True
     except LineBotApiError as e:
         print("エラーだよ")
-        return False
+        # error handle
