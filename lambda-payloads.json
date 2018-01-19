@@ -1,0 +1,11 @@
+{
+    "pushMessage": {
+        "lambda": {
+            "to": "U509d57cc790daa1644465927bdcad8b3",
+            "messages": {
+                "type": "text",
+                "text": "つらい"
+            }
+        }
+    }
+}
